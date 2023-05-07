@@ -1,0 +1,5 @@
+booksDB
+postgres
+08121999
+localhost
+5432

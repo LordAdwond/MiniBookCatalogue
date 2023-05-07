@@ -1,0 +1,26 @@
+#1. Database
+This program oriented on usage of PostgreSQL. 
+To use this program database must have at least two tables: 'books' and 'book_items'.
+First table must have next columns:
+
+book_id integer
+book_name char(255)
+book_authors char(255)
+book_pages_number integer
+book_publication_year integer
+book_item_id integer
+
+Second table must have next columns:
+
+item_id integer
+item_name char(255)
+
+To do available this program create 'config.txt' file in folder with the program.
+#2. config.txt
+In this file must be five lines (every line is parameter to connect to your database). There are:
+<database>
+<user>
+<user_password>
+<server>
+<port>
+Write parameters using this order!

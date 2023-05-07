@@ -1,0 +1,6 @@
+book_id
+book_name
+book_authors
+book_pages_number
+book_publication_year
+book_item
